@@ -1,0 +1,5 @@
+com\mycompany\pagamento\NewClass.class
+com\mycompany\pagamento\CartaoCredito.class
+com\mycompany\pagamento\Paypal.class
+com\mycompany\pagamento\Pagamento.class
+com\mycompany\pagamento\SistemaDePagamento.class
