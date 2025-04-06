@@ -98,9 +98,7 @@ public class DivisaoPorZero extends javax.swing.JFrame {
         try {
             int resultado = numero1 / numero2;
             labelResult.setText("Resultado: " + resultado);
-        } catch (ArithmeticException e) {
-            JOptionPane.showMessageDialog(this, "Erro:" + e.getMessage());
-        }  catch (Exception e){
+        } catch (Exception e){
     JOptionPane.showMessageDialog(this, "Erro:" + e.getMessage());
    
         }

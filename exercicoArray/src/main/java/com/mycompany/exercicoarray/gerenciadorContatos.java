@@ -119,7 +119,7 @@ public class gerenciadorContatos extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteActionPerformed
-        // TODO add your handling code here:
+
         excluirContatos();
     }//GEN-LAST:event_btnDeleteActionPerformed
 
@@ -188,6 +188,7 @@ public class gerenciadorContatos extends javax.swing.JFrame {
         
             if(index >= 0){
                 contatos.remove(index);
+                atualizarTabela();
             }
         
     }
